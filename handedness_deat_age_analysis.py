@@ -12,9 +12,7 @@ Original file is located at
 # Handedness vs Age at Death Analysis
 # ============================================================================
 
-# STEP 1: Import Libraries
-# For Google Colab, run this first (uncomment the line below):
-# !pip install pandas numpy matplotlib seaborn scipy openpyxl
+# STEP 1: Importing Libraries
 
 import pandas as pd
 import numpy as np
@@ -123,7 +121,7 @@ for handedness in ['Right', 'Left']:
     print(f"  75th Percentile:    {ages.quantile(0.75):.2f} years")
 
 # ============================================================================
-# STEP 6: Create Visualizations
+# STEP 6: Creating Visualizations
 # ============================================================================
 
 print("\n\n📊 CREATING VISUALIZATIONS")
